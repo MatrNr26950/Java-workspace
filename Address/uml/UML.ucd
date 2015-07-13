@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="UML" size="1388,733" id="app" metadata="uml2-1.0" initialized="true" scrolledX="-5" tag="10" key="32303037303533312D31302041646472657373">
-  <children xsi:type="editmodel:ClassEditModel" name="Main" location="0,20" size="256,257" id="app/Main" runTimeClassModel="showPersonEditDialog(Lapp.model.Person;),start(Ljavafx.stage.Stage;),getPersonData(),loadPersonDataFromFile(Ljava.io.File;),primaryStage,main([Ljava.lang.String;),setPersonFilePath(Ljava.io.File;),personData,showPersonOverview(),Main(),savePersonDataToFile(Ljava.io.File;),getPersonFilePath(),getPrimaryStage(),initRootLayout()">
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="UML" size="1241,719" id="app" metadata="uml2-1.0" initialized="true" scrolledX="-5" tag="10" key="32303037303533312D31302041646472657373">
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="0,20" size="211,257" id="app/Main" runTimeClassModel="showPersonEditDialog(Lapp.model.Person;),start(Ljavafx.stage.Stage;),getPersonData(),loadPersonDataFromFile(Ljava.io.File;),primaryStage,main([Ljava.lang.String;),setPersonFilePath(Ljava.io.File;),personData,showPersonOverview(),Main(),savePersonDataToFile(Ljava.io.File;),getPersonFilePath(),getPrimaryStage(),initRootLayout()">
     <children xsi:type="editmodel:CompartmentEditModel" size="188,32">
       <children xsi:type="editmodel:AttributeEditModel" name="personData" id="app/Main#personData"/>
       <children xsi:type="editmodel:AttributeEditModel" name="primaryStage" id="app/Main#primaryStage"/>
@@ -19,24 +19,58 @@
       <children xsi:type="editmodel:MethodEditModel" name="getPrimaryStage" id="app/Main#getPrimaryStage()"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app/Main->app.view/RootLayoutController" source="//@children.0" target="//@children.7" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:AssociationEndEditModel" location="78,257" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app/Main->app.view/PersonOverviewController" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,257" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,0"/>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app/Main->app.view/PersonEditDialogController" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:AssociationEndEditModel" location="225,257" attachSource="true"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app/Main->app.view/PersonEditDialogController" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,257" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="30,0"/>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app/Main->app.view/PersonOverviewController" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.2/@children.1" label="//@children.0/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:AssociationEndEditModel" location="165,257" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app/Main->app.view/RootLayoutController" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.2/@children.1" label="//@children.0/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="211,147" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,47"/>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" name="Person" location="525,15" size="207,479" id="app.model/Person" runTimeClassModel="birthday,setBirthday(Ljava.time.LocalDate;),lastName,Person(Ljava.lang.String;Ljava.lang.String;),city,birthdayProperty(),streetProperty(),postalCode,getFirstName(),postalCodeProperty(),setPostalCode(I),street,firstNameProperty(),cityProperty(),setFirstName(Ljava.lang.String;),getBirthday(),setCity(Ljava.lang.String;),getStreet(),lastNameProperty(),getCity(),getPostalCode(),getLastName(),firstName,setStreet(Ljava.lang.String;),Person(),setLastName(Ljava.lang.String;)">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="PersonOverviewController" location="0,525" size="190,111" id="app.view/PersonOverviewController" runTimeClassModel="setMainApp(Lapp.Main;),PersonOverviewController(),mainApp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="mainApp" id="app.view/PersonOverviewController#mainApp"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,32">
+      <children xsi:type="editmodel:MethodEditModel" name="PersonOverviewController" id="app.view/PersonOverviewController#PersonOverviewController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMainApp" id="app.view/PersonOverviewController#setMainApp(Lapp.Main;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="PersonEditDialogController" location="150,375" size="195,143" id="app.view/PersonEditDialogController" runTimeClassModel="dialogStage,person,setDialogStage(Ljavafx.stage.Stage;),isOkClicked(),setPerson(Lapp.model.Person;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="dialogStage" id="app.view/PersonEditDialogController#dialogStage"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="person" id="app.view/PersonEditDialogController#person"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,48">
+      <children xsi:type="editmodel:MethodEditModel" name="isOkClicked" id="app.view/PersonEditDialogController#isOkClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDialogStage" id="app.view/PersonEditDialogController#setDialogStage(Ljavafx.stage.Stage;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPerson" id="app.view/PersonEditDialogController#setPerson(Lapp.model.Person;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="RootLayoutController" location="240,120" size="158,95" id="app.view/RootLayoutController">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="mainApp" id="app.view/RootLayoutController#mainApp"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,16">
+      <children xsi:type="editmodel:MethodEditModel" name="setMainApp" id="app.view/RootLayoutController#setMainApp(Lapp.Main;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Person" location="555,20" size="207,479" id="app.model/Person" runTimeClassModel="birthday,setBirthday(Ljava.time.LocalDate;),lastName,Person(Ljava.lang.String;Ljava.lang.String;),city,streetProperty(),birthdayProperty(),postalCode,getFirstName(),postalCodeProperty(),setPostalCode(I),street,firstNameProperty(),cityProperty(),setFirstName(Ljava.lang.String;),getBirthday(),setCity(Ljava.lang.String;),getStreet(),lastNameProperty(),getCity(),getPostalCode(),getLastName(),firstName,setStreet(Ljava.lang.String;),Person(),setLastName(Ljava.lang.String;)">
     <children xsi:type="editmodel:CompartmentEditModel" size="184,96">
       <children xsi:type="editmodel:AttributeEditModel" name="birthday" id="app.model/Person#birthday"/>
       <children xsi:type="editmodel:AttributeEditModel" name="city" id="app.model/Person#city"/>
@@ -46,8 +80,8 @@
       <children xsi:type="editmodel:AttributeEditModel" name="street" id="app.model/Person#street"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="115,320">
-      <children xsi:type="editmodel:MethodEditModel" name="Person" id="app.model/Person#Person()"/>
       <children xsi:type="editmodel:MethodEditModel" name="Person" id="app.model/Person#Person(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Person" id="app.model/Person#Person()"/>
       <children xsi:type="editmodel:MethodEditModel" name="birthdayProperty" id="app.model/Person#birthdayProperty()"/>
       <children xsi:type="editmodel:MethodEditModel" name="cityProperty" id="app.model/Person#cityProperty()"/>
       <children xsi:type="editmodel:MethodEditModel" name="firstNameProperty" id="app.model/Person#firstNameProperty()"/>
@@ -68,84 +102,46 @@
       <children xsi:type="editmodel:MethodEditModel" name="streetProperty" id="app.model/Person#streetProperty()"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app.model/Person->app.model/PersonListWrapper" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" label="//@children.1/@sourceConnections.0/@children.2" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:AssociationEndEditModel" location="207,52" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" location="10,47"/>
-      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
-    </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app.model/Person->app.util/LocalDateAdapter" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.1/@children.1" label="//@children.1/@sourceConnections.1/@children.2" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:AssociationEndEditModel" location="207,227" attachSource="true"/>
-      <children xsi:type="editmodel:AssociationEndEditModel" location="0,47"/>
-      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
-    </sourceConnections>
-    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app.model/Person->app.util/DateUtil" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.2/@children.1" label="//@children.1/@sourceConnections.2/@children.2" sourceEnd="//@children.1/@sourceConnections.2/@children.0" connectionRouterKind="Manual">
-      <children xsi:type="editmodel:AssociationEndEditModel" location="207,415" attachSource="true"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="app.model/Person->app.model/PersonListWrapper" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" label="//@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,65" attachSource="true"/>
       <children xsi:type="editmodel:AssociationEndEditModel" location="0,55"/>
       <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
     </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" source="//@children.4" target="//@children.6" targetEnd="//@children.4/@sourceConnections.1/@children.1" label="//@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="207,222" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,47"/>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="PersonListWrapper" location="797,20" size="144,95" id="app.model/PersonListWrapper" runTimeClassModel="persons,getPersons(),setPersons(Ljava.util.List;)">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="PersonListWrapper" location="825,30" size="144,111" id="app.model/PersonListWrapper" runTimeClassModel="persons,getPersons(),setPersons(Ljava.util.List;)">
     <children xsi:type="editmodel:CompartmentEditModel" size="116,16">
       <children xsi:type="editmodel:AttributeEditModel" name="persons" id="app.model/PersonListWrapper#persons"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="75,16">
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,32">
       <children xsi:type="editmodel:MethodEditModel" name="getPersons" id="app.model/PersonListWrapper#getPersons()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPersons" id="app.model/PersonListWrapper#setPersons(Ljava.util.List;)"/>
     </children>
     <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.2" name="DateUtil" location="810,375" size="87,111" id="app.util/DateUtil" runTimeClassModel="parse(Ljava.lang.String;),format(Ljava.time.LocalDate;),validDate(Ljava.lang.String;)">
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="LocalDateAdapter" location="828,195" size="137,95" id="app.util/LocalDateAdapter">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,32">
+      <children xsi:type="editmodel:MethodEditModel" name="marshal" id="app.util/LocalDateAdapter#marshal(Ljava.time.LocalDate;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unmarshal" id="app.util/LocalDateAdapter#unmarshal(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DateUtil" location="1035,93" size="87,111" id="app.util/DateUtil">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
     <children xsi:type="editmodel:CompartmentEditModel" size="64,48">
       <children xsi:type="editmodel:MethodEditModel" name="format" id="app.util/DateUtil#format(Ljava.time.LocalDate;)"/>
       <children xsi:type="editmodel:MethodEditModel" name="parse" id="app.util/DateUtil#parse(Ljava.lang.String;)"/>
       <children xsi:type="editmodel:MethodEditModel" name="validDate" id="app.util/DateUtil#validDate(Ljava.lang.String;)"/>
     </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
-  </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="LocalDateAdapter" location="797,195" size="137,95" id="app.util/LocalDateAdapter" runTimeClassModel="unmarshal(Ljava.lang.String;),marshal(Ljava.time.LocalDate;)">
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <children xsi:type="editmodel:CompartmentEditModel" size="70,32">
-      <children xsi:type="editmodel:MethodEditModel" name="marshal" id="app.util/LocalDateAdapter#marshal(Ljava.time.LocalDate;)"/>
-      <children xsi:type="editmodel:MethodEditModel" name="unmarshal" id="app.util/LocalDateAdapter#unmarshal(Ljava.lang.String;)"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
-  </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="PersonEditDialogController" location="195,381" size="195,143" id="app.view/PersonEditDialogController" runTimeClassModel="dialogStage,person,setDialogStage(Ljavafx.stage.Stage;),isOkClicked(),setPerson(Lapp.model.Person;)">
-    <children xsi:type="editmodel:CompartmentEditModel" size="97,32">
-      <children xsi:type="editmodel:AttributeEditModel" name="dialogStage" id="app.view/PersonEditDialogController#dialogStage"/>
-      <children xsi:type="editmodel:AttributeEditModel" name="person" id="app.view/PersonEditDialogController#person"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="92,48">
-      <children xsi:type="editmodel:MethodEditModel" name="isOkClicked" id="app.view/PersonEditDialogController#isOkClicked()"/>
-      <children xsi:type="editmodel:MethodEditModel" name="setDialogStage" id="app.view/PersonEditDialogController#setDialogStage(Ljavafx.stage.Stage;)"/>
-      <children xsi:type="editmodel:MethodEditModel" name="setPerson" id="app.view/PersonEditDialogController#setPerson(Lapp.model.Person;)"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
-  </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="PersonOverviewController" location="75,540" size="190,111" id="app.view/PersonOverviewController" runTimeClassModel="setMainApp(Lapp.Main;),PersonOverviewController(),mainApp">
-    <children xsi:type="editmodel:CompartmentEditModel" size="77,16">
-      <children xsi:type="editmodel:AttributeEditModel" name="mainApp" id="app.view/PersonOverviewController#mainApp"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="148,32">
-      <children xsi:type="editmodel:MethodEditModel" name="PersonOverviewController" id="app.view/PersonOverviewController#PersonOverviewController()"/>
-      <children xsi:type="editmodel:MethodEditModel" name="setMainApp" id="app.view/PersonOverviewController#setMainApp(Lapp.Main;)"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
-    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
-  </children>
-  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="RootLayoutController" location="0,405" size="158,95" id="app.view/RootLayoutController" runTimeClassModel="setMainApp(Lapp.Main;),mainApp">
-    <children xsi:type="editmodel:CompartmentEditModel" size="77,16">
-      <children xsi:type="editmodel:AttributeEditModel" name="mainApp" id="app.view/RootLayoutController#mainApp"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="77,16">
-      <children xsi:type="editmodel:MethodEditModel" name="setMainApp" id="app.view/RootLayoutController#setMainApp(Lapp.Main;)"/>
-    </children>
-    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
     <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
   </children>
   <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>

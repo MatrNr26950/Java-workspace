@@ -26,8 +26,8 @@ import app.Main;
 
 /**
  * @uml.dependency   supplier="app.view.RootLayoutController"
- * @uml.dependency   supplier="app.view.PersonEditDialogController"
  * @uml.dependency   supplier="app.view.PersonOverviewController"
+ * @uml.dependency   supplier="app.view.PersonEditDialogController"
  */
 public class Main extends Application {
 
@@ -77,16 +77,13 @@ public class Main extends Application {
     
     public void showPersonOverview() {
         try {
+            // Load person overview.
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("view/PersonOverview.fxml"));
             AnchorPane personOverview = (AnchorPane) loader.load();
             rootLayout.setCenter(personOverview);
             PersonOverviewController controller = loader.getController();
-            try {
             controller.setMainApp(this);
-            } catch (NullPointerException e) {
-                e.printStackTrace();
-            }          
         } catch (IOException e) {
             e.printStackTrace();
         }

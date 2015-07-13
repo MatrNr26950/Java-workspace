@@ -100,7 +100,6 @@ public class PersonOverviewController {
             if (okClicked) {
                 showPersonDetails(selectedPerson);
             }
-
         } else {
         	Dialogs.create()
         	.title("Nichts ausgewaehlt")

@@ -11,9 +11,9 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
+ * @uml.dependency   supplier="app.util.DateUtil"
  * @uml.dependency   supplier="app.util.LocalDateAdapter"
  * @uml.dependency   supplier="app.model.PersonListWrapper"
- * @uml.dependency   supplier="app.util.DateUtil"
  */
 public class Person {
 
